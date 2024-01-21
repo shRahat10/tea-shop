@@ -18,6 +18,7 @@
 
         .btn-primary {
             background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+            border: none;
         }
     </style>
     <script>
@@ -36,8 +37,8 @@
 
 <body class="manrope max-w-[1440px] mx-auto">
     <header class="px-6 lg:px-12">
-        <nav class="flex justify-between items-center py-8">
-            <h1 class="text-5xl font-bold text-btnTwo"><span class="text-btnOne">Tea</span> Shop</h1>
+        <nav class="flex justify-between items-center py-4 md:py-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-btnTwo"><span class="text-btnOne">Tea</span> Shop</h1>
             <ul class="hidden lg:flex justify-center items-center gap-8 text-xl text-black font-bold">
                 <li>Home</li>
                 <li>Menu</li>
@@ -61,9 +62,9 @@
                 </ul>
             </div>
         </nav>
-        <section class="py-8 flex flex-col lg:flex-row justify-between">
-            <div class="w-1/2">
-                <h1 class="my-2 text-7xl font-bold">It's good<br>tea time at the<br>Tea House</h1>
+        <section class="py-4 md:py-8 flex flex-col lg:flex-row justify-between items-center">
+            <div class="">
+                <h1 class="my-2 text-4xl md:text-7xl font-bold">It's good<br>tea time at the<br>Tea House</h1>
                 <p class="my-2 text-lg">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste
                     Buds.</p>
                 <button class="my-2 btn btn-primary text-white text-xl">Explore More <svg
@@ -72,10 +73,10 @@
                             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg></button>
             </div>
-            <div class="w-1/2">
+            <div class="h-max">
                 <img src="./images/banner.png" alt="">
-                <div class="w-60 h-24 flex gap-4 justify-center items-center rounded-lg shadow-lg #0000000F">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="46" viewBox="0 0 48 46" fill="none">
+                <div class="-mt-14 md:-mt-28 md:ml-32 lg:-mt-20 lg:ml-20 xl:-mt-28 xl:ml-24 p-4 w-max h-max flex gap-2 justify-center items-center rounded-lg drop-shadow-lg bg-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-9 md:h-9 xl:w-11 xl:h-11" viewBox="0 0 48 46" fill="none">
                         <path
                             d="M42.4416 13.778L29.9033 12.6152L24.9228 1.04987C24.574 0.240051 23.4259 0.240051 23.0772 1.04987L18.0966 12.6151L5.5584 13.778C4.68043 13.8594 4.32568 14.9514 4.98802 15.5333L14.4482 23.8439L11.6796 36.1279C11.4858 36.988 12.4147 37.6629 13.1728 37.2128L24 30.7838L34.8272 37.2128C35.5854 37.663 36.5141 36.988 36.3204 36.1279L33.5517 23.8439L43.012 15.5333C43.6743 14.9514 43.3195 13.8594 42.4416 13.778Z"
                             fill="#FFDC64" />
@@ -99,8 +100,8 @@
                             fill="#FFC850" />
                     </svg>
                     <div>
-                        <h1 class="text-3xl font-bold">5.00</h1>
-                        <p class="text-lg">Trust Pilot Ratings</p>
+                        <h1 class="text-sm md:text-xl xl:text-3xl font-bold">5.00</h1>
+                        <p class="text-xs md:text-sm xl:text-lg">Trust Pilot Ratings</p>
                     </div>
                 </div>
             </div>
